@@ -186,5 +186,5 @@ io.on('connection', (socket) => {
 app.get('/health', (_, res) => res.json({ status: 'ok' }));
 
 httpServer.listen(PORT, () => {
-  console.log(`🚀 Color Clash server listening on http://localhost:${PORT}`);
+  console.log(`[UnoGO] Server running on port ${PORT}`);
 });
